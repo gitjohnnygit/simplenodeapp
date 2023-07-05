@@ -3,7 +3,7 @@
 
 name: steps
 on:
-  push:
+  pull-request:
     branches: [ master ]
 jobs:
   run:
